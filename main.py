@@ -35,6 +35,7 @@ if __name__=="__main__":
         env.render()
         t += 1
 
+
     print("Episode finished")
     print("Total reward:", infos['total_reward'])
     print("Total time steps:", infos['total_time_steps'])
